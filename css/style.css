@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #fcf5f8
+  background: #fcf5f8;
 }
 hr {
   background-image: url(../images/hr.png);
@@ -48,7 +48,7 @@ hr {
   box-sizing: border-box;
   text-align: center;
   top: 27%;
-  -webkit-transform: translate(0,-50%);
+  -webkit-transform: translate(0,-120%);
   position: absolute;
   padding: 0 20px;
 }
@@ -73,7 +73,7 @@ span {
 }
 #title {
   font-size: 18pt;
-  line-height: 22pt;
+  line-height: 24pt;
   color: #444;
 }
 #subtitle {
@@ -94,7 +94,8 @@ span {
 }
 .small {
   display: inline-block;
-  width: 40px;
+  width: 38px;
+  text-align: center;
   padding-left: 8px;
   padding-right: 8px;
   font-size: 10pt;
