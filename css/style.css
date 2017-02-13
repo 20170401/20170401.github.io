@@ -15,6 +15,7 @@ hr {
   height: auto;
   width: 100%;
   display: block;
+  background-color: #fcf5f8;
 }
 .wrap_cover {
   position: fixed;
@@ -92,6 +93,8 @@ span {
 #grallery {
 }
 .small {
+  display: inline-block;
+  width: 40px;
   padding-left: 8px;
   padding-right: 8px;
   font-size: 10pt;
