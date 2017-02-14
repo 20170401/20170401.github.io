@@ -47,10 +47,9 @@ hr {
   width: 100%;
   box-sizing: border-box;
   text-align: center;
-  top: 27%;
-  -webkit-transform: translate(0,-120%);
+  top: 13%;
+  -webkit-transform: translate(0,-100%);
   position: absolute;
-  padding: 0 20px;
 }
 span {
   font-weight: 100;
@@ -74,12 +73,12 @@ span {
 #title {
   font-size: 18pt;
   line-height: 24pt;
-  color: #444;
+  color: #222;
 }
 #subtitle {
   font-size: 10pt;
   line-height: 15pt;
-  color: #444;
+  color: #222;
 }
 #family {
   padding-top: 20px;
