@@ -1,7 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  background: #fcf5f8;
+  background: #808080;
+}
+#app {
+  max-width: 512px;
+  margin: 0 auto;
 }
 hr {
   background-image: url(../images/hr.png);
@@ -19,7 +23,7 @@ hr {
 }
 .wrap_cover {
   position: fixed;
-  width: 100%;
+  max-width: 512px;
   top: 0;
   z-index: -1;
   overflow: hidden;
@@ -114,12 +118,27 @@ span {
 #footer {
   height: 200px;
   background-image: url(../images/cljs.svg);
-  background-size: 50px 50px;
+  background-size: 150px 50px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 80%;
+  padding-top: 30px;
+  text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.text-btn {
+    font-size: 13pt;
+    color: #666;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-family: "Iropke Batang",serif;
+}
+.div-btn {
+    height: 50px;
 }
 .re_frame {
-  display: block;
-  height: 100%;
-  width: 100%;
+    display: block;
+    height: 100%;
+    width: 100%;
 }
